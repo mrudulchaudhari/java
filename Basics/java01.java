@@ -22,5 +22,20 @@ class java01{
         // here System.out is used to put out data on console
 
         //println(), print(), printf()
+
+        System.out.println();
+        int x = 5;
+        int y = 6;
+        System.out.println("Hello the number is "+ x + y);
+        // Here it shows 56 because it first converts x, i.e 5 to string and then y to string
+
+        System.out.println("Hello the number is "+(x+y));
+        // Where as we calculate (x+y) -> (5+6) = 11, which eventually gets converted to string.
+
+        /*
+        This is example of a
+        multiline
+        comment.
+         */
     }
 }
