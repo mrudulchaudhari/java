@@ -29,6 +29,39 @@ public class java03 {
         System.out.println(a1.concat(b1));
         String c1 = "Hi ".concat(a1 + " ").concat(b1).concat(" "+b2);
         System.out.println(c1);
+
+        String x = "10";
+        int y = 20;
+        String z = x + y;
+        System.out.println(z); //1020
+
+        // Math
+        int minn = Math.min(10, 5);
+        int maxx = Math.max(10, 5);
+        int abss = Math.abs(-5);
+        double poww = Math.pow(2, 8);
+
+        double roundd = Math.round(4.6);  // 5
+        double ceill = Math.ceil(4.1);   // 5.0
+        double floorr =Math.floor(4.9);  // 4.0
+
+        System.out.println(minn); //5
+        System.out.println(maxx); //10
+        System.out.println(abss); //5
+        System.out.println(poww); //256.0
+        System.out.println(roundd); // 5.0
+        System.out.println(ceill); // 5.0
+        System.out.println(floorr); // 4.0
+
+        double rand = Math.random();
+        System.out.println(rand);
+
+        int rand2 = (int) (Math.random() * 101);
+        System.out.println(rand2);
+
+
+
+
     }
 
 }
