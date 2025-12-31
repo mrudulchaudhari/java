@@ -22,6 +22,13 @@ public class java03 {
         String txt = "   Hello World   ";
         System.out.println("Before: [" + txt + "]");
         System.out.println("After:  [" + txt.trim() + "]");
+
+        // Concatenation
+        System.out.println(a1 + " " + b1);
+        System.out.println(a1 + b1);
+        System.out.println(a1.concat(b1));
+        String c1 = "Hi ".concat(a1 + " ").concat(b1).concat(" "+b2);
+        System.out.println(c1);
     }
 
 }
